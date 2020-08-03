@@ -34,10 +34,10 @@ export default function RoomFilter({rooms}) {
 
     return (
         <section className="filter-container">
-            <Title title="search rooms"/>
+            <Title title="search drawings"/>
             <form className="filter-form">
                 <div className="form-group">
-                    <label htmlFor="type">room type</label>
+                    <label htmlFor="type">drawing type</label>
                     <select 
                         name="type" 
                         id="type" 
@@ -49,7 +49,7 @@ export default function RoomFilter({rooms}) {
                     </select>
                 </div>
                 <div className="form-group">
-                    <label htmlFor="capacity">Guests</label>
+                    <label htmlFor="capacity">Prints available</label>
                     <select 
                         name="capacity" 
                         id="capacity" 
@@ -61,7 +61,7 @@ export default function RoomFilter({rooms}) {
                     </select>
                 </div>
                 <div className="form-group">
-                    <label htmlFor="price">room price ${price}</label>
+                    <label htmlFor="price">original price ${price}</label>
                     <input 
                         type="range"
                         name="price" 
@@ -74,7 +74,7 @@ export default function RoomFilter({rooms}) {
                     />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="size">Room Size</label>
+                    <label htmlFor="size">Print Size</label>
                     <div className="size-inputs">
                         <input 
                             type="number"
@@ -103,17 +103,17 @@ export default function RoomFilter({rooms}) {
                             checked={breakfast} 
                             onChange={handleChange}
                         />
-                        <label htmlFor='breakfast'>breakfast</label>
+                        <label htmlFor='breakfast'>Prints Available</label>
                     </div>
                     <div className="single-extra">
                         <input 
                             type="checkbox" 
-                            name="pets" 
+                            name="original available" 
                             id="pets" 
                             checked={pets} 
                             onChange={handleChange}
                         />
-                        <label htmlFor='pets'>pets</label>
+                        <label htmlFor='pets'>Original Available</label>
                     </div>
                 </div>
             </form>

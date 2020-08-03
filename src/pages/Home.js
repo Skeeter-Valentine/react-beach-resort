@@ -9,9 +9,9 @@ export const Home = () => {
     return (
         <>
         <Hero hero="defaultHero">
-            <Banner title="luxurious rooms" subtitle="deluxe rooms starting at $299">
+            <Banner title="SHAPEshyft" subtitle="Geometric Art">
                 <Link to="/rooms" className="btn-primary">
-                    our rooms
+                    Drawings
                 </Link>
             </Banner>
         </Hero>
