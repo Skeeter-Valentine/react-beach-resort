@@ -1,3 +1,6 @@
+Shapeshyft is a mockup of a webpage to display and sell drawings that I have drawn in the past. The app has a home page used to explain what types of items I'm selling and displays a "favorites" section with select drawings. It also has a drawings page where users can search through my work, filtering by price and other factors. The website has a contact page as well. The app was built using react, react router, and a contently API to host data.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
